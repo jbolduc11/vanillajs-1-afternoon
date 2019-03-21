@@ -1,0 +1,14 @@
+queue = [sheep, sheep, sheep, sheep, sheep, wolf, sheep, sheep];
+
+
+function warnTheSheep(queue) {
+  for(var i = 0; i <queue.length; i++){
+    if(queue[i] = 'wolf'){
+    return "Pls go away and stop eating my sheep"
+    } else {
+    return "Oi! Sheep number " + .indexOf(queue) + "! Your are about to be eaten by a wolf!"
+    }
+  }
+}
+
+console.log(warnTheSheep(queue));
